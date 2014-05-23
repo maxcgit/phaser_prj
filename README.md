@@ -1,4 +1,4 @@
-*Phaser project
-==========
+Phaser project
+==============
 
 Game on phaser.
