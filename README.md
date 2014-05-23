@@ -1,4 +1,4 @@
-phaser_prj
+*Phaser project
 ==========
 
-phaser
+Game on phaser.
