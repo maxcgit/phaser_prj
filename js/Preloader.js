@@ -31,6 +31,8 @@ BasicGame.Preloader.prototype = {
 		this.load.image('sky', 'images/level1/sky.png');
 		this.load.image('ground', 'images/level1/platform.png');
     	this.load.image('star', 'images/level1/star.png');
+    	this.load.image('winBackground', 'images/win.png');
+    	this.load.image('loseBackground', 'images/lose.png');
     	this.load.spritesheet('dude', 'images/level1/dude.png', 32, 48);
     	this.load.spritesheet('bad', 'images/level1/baddie.png', 32, 32);
 

@@ -180,7 +180,12 @@ BasicGame.Game.prototype = {
 		//	Stop music, delete sprites, purge caches, free resources, all that good stuff.
 
 		//	Then let's go back to the main menu.
-		this.state.start('MainMenu');
+        if(pointer == 'collectStar')
+            this.state.start('Win');
+        else if(pointer == 'killPlayer')
+            this.state.start('Lose');
+        else
+		  this.state.start('MainMenu');
 
 	}
 
